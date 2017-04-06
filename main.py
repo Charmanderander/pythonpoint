@@ -1,6 +1,6 @@
 import re
 
-path = r'C:\Users\Chan Family\Desktop\pythonpoint\slides.txt'
+path = r'slides.txt'
 
 mainpoint = '1'
 
