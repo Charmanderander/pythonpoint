@@ -2,7 +2,6 @@ import re
 
 path = r'slides.txt'
 
-mainpoint = '1'
 
 with open(path,'r') as fin:
     read_data = fin.readlines()
@@ -14,11 +13,8 @@ with open(path,'r') as fin:
             print  content 
             print (len(content) + 4) * "#"
         else:
-            point = mark.split(".")
-            if point[0] != mainpoint: # if not a sub point of previous point
-                mainpoint = point[0]
-                
-            print mainpoint + "." + ("~"*(len(mark)-1)) + content
+            point = mark.split(".")                
+            print point[0] + "." + ("~"*(len(mark)-1)) + content
 
 import pdb; pdb.set_trace()
             
