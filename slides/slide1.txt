@@ -1,0 +1,4 @@
+[h](Introduction to Functions)
+[1](Local/Global concept)
+[2](How to call functions)
+[2.1](Defining functions locally vs as another file)

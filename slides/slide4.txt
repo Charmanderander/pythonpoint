@@ -1,0 +1,7 @@
+[h](Summary)
+[1](Local/Global variables)
+[2](Where to define your functions)
+[3](Creating functions)
+[3.1](Accepting Paramters)
+[3.2](Returning a value)
+[4](Recursive Functions)
