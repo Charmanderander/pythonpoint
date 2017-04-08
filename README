@@ -1,0 +1,18 @@
+1) Place slides in the "Slides" folder
+2) Slides must be in the following format
+
+[h](Content of header)
+[1](Point 1)
+[1.1](Subpoint of 1)
+[2](Point 2)
+[2.2](Subpoint of 2)
+[2.2.2](Nested subpoint of 2)
+
+When the script runs, it returns you an interactive shell.
+
+After you are done with the shell, hit Ctrl-D
+
+You will be given 3 choices:
+1) Next slide
+2) Prev slide
+3) End the presentation
