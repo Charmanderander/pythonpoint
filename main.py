@@ -29,8 +29,11 @@ while(input != "3"):
                 # len(mark) finds out which subpoint is it
                 print point[0] + "." + (" "*(len(mark)-1)) + "~ " +content
 
+    # Opens an interactive shell
     code.interact(local=locals())
     input = raw_input("Next Slide: 1\nPrev Slide: 2\nEnd Presentation: 3\nChoice:")
+
+    # Doing sanity checking for slide numbers
     if input == "1":
         slide_count += 1
         new_slide = r'slides/slide' + str(slide_count) + '.txt'
