@@ -1,4 +1,4 @@
-[h](Creating Functions)
-[1](How to create functions)
-[1.1](Accepting paramters)
-[1.2](Returning a value)
+[h](Range)
+[1](Creates a collection of numbers)
+[1.1](range(0,10))
+[1.2]([1,2,3,4,5,6,7,8,9])
