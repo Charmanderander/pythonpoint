@@ -1,2 +1,4 @@
-[h](Recursive Functions)
-[1](Functions in functions)
+[h](For loop)
+[1](For each item in the collection, do something)
+[1.1](Doing something can modify the item in the collection, or do something else)
+[2](For loop stops when all items in the collection has been processed)
